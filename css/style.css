@@ -305,6 +305,11 @@ header{
     margin-bottom: 0;
 }
 
+.load-more:hover, .load-more:focus{
+    color: orangered;
+    transition: 0.3s ease;
+}
+
 footer{
     color: rgb(61,61,61);
     background-color: rgb(231, 234, 237);
