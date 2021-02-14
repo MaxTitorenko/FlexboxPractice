@@ -387,6 +387,14 @@ footer p{
     .phone-menu{
         display: flex;
     }
+    
+    .arrow{
+        bottom: -40px;
+    }
+
+    .button{
+        bottom: 12px;
+    }
 }
 
 @media (max-width: 1900px){
