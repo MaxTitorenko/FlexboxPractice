@@ -120,10 +120,11 @@ header{
 
 .arrow{
     position: absolute;
-    bottom: -10px;
-    font-size: 7rem;
+    bottom: 20px;
+    font-size: 3rem;
     color: rgba(99, 99, 99);
     pointer-events: none;
+    font-weight: bold;
 }
 
 .button{
@@ -303,6 +304,7 @@ header{
     font-weight: 700;
     color: rgb(61,61,61);
     margin-bottom: 0;
+    transition: 0.3s ease;
 }
 
 .load-more:hover, .load-more:focus{
@@ -387,9 +389,9 @@ footer p{
     .phone-menu{
         display: flex;
     }
-    
+
     .arrow{
-        bottom: -40px;
+        bottom: -10px;
     }
 
     .button{
