@@ -391,11 +391,13 @@ footer p{
     }
 
     .arrow{
-        bottom: -10px;
+        bottom: -15px;
     }
 
     .button{
         bottom: 12px;
+        max-width: 45px;
+        max-height: 45px;
     }
 }
 
