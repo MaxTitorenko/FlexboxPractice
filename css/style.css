@@ -113,19 +113,35 @@ header{
 }
 
 .button-container{
+    display: flex;
     flex-direction: column;
     align-items: center;
-    display: flex;
+}
+
+.arrow-line{
+    position: absolute;
+    max-width: 25px;
+    max-height: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(61,61,61);
+    border-radius: 1em;
+}
+
+.arrow-line:first-child{
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+
+.arrow-line:last-child{
+    transform: rotate(-45deg);
+    margin-left: 25px;
 }
 
 .arrow{
-    position: absolute;
-    bottom: 20px;
-    font-size: 3rem;
-    color: rgba(99, 99, 99);
+    margin-bottom: 65px;
+    margin-right: 60px;
     pointer-events: none;
-    font-weight: bold;
-    transition: 0.5s ease;
 }
 
 .button{
@@ -390,9 +406,18 @@ footer p{
     .phone-menu{
         display: flex;
     }
-
+    
+    .arrow-line{
+        max-width: 20px;
+    }
+    
     .arrow{
-        bottom: -15px;
+        margin-bottom: 30px;
+        margin-right: 58px;
+    }
+
+    .arrow-line:first-child{
+        margin-left: 14px;
     }
 
     .button{
